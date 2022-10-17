@@ -6,6 +6,12 @@ New updates are added as a h2 header (`##`) above the previous version (meaning 
 We use [Semantic Versioning 2.0.0](https://semver.org/spec/v2.0.0.html) which is the undoubtedly best format for version formatting, please use it for your own projects.
 
 
+## 1.0.2
+```diff
+- Reverted "Changed bindings to use the Workman Keyboard Layout (https://workmanlayout.org)" from 1.0.1
+```
+
+
 ## 1.0.1
 ```diff
 + Added mod_load_mesh_async "0" to increase mod compatabilities
