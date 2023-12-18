@@ -6,6 +6,41 @@ New updates are added as a h2 header (`##`) above the previous version (meaning 
 We use [Semantic Versioning 2.0.0](https://semver.org/spec/v2.0.0.html) which is the undoubtedly best format for version formatting, please use it for your own projects.
 
 
+## 1.0.3
+```diff
++ Added additional viewmodel_fov_demo
++ Added ds_stop to "q" alias so that demos are stopped gracefully prior to leaving matches
++ Added "fin_" prefixes to aliases
++ Added net_graph, ds_status, and timeleft to fin_scorenet
++ Added Engineer quick building-management aliases
++ Added in_usekeyboardsampletime "0"
++ Added snd_mute_losefocus "0"
++ Added automatic demo recording configuration
++ Added hitsound configuration
++ Added "Uncletopia-esque" settings
++ Added randomized_disguise_indices.cfg which allows us to pseudo-randomly digsuise as spy without bias
++ Added combattext tweaks
++ Added tf_lobby_debug to the end of the config
++ Added sv_pure_bypass.cfg to load custom animations on game launch
++ Added .vscode/extensions.json to prompt Visual Studio Code users to install my preferred extension for cfg syntax highlighting
++ Added .vscode/settings.json to adjust formatting settings to match my preferences.
++ Added server_custom.cfg, vscript_convar_allowlist.txt, server_net_chan_extend.cfg, and *.js to .gitignore
+
+* Changed sv_pure 2 -> 1 for custom animation compatibility
+* Changed controller support exec in 0.0 to disable controller support instead of enable it.
+* Improved various network settings
+* Adjusted whitespace
+* Fixed crosshair
+* Increased sensitivity float precision
+* Adjusted graphics settings to improve mod compatibility particularly for custom animations
+* Changed zoom_sensitivity_ratio from approximately 0.79 to 0.818933027098955175
+* Adjusted various binds to account for newly added features
+* Fixed MVM HUD
+* Various minor minor tweaks
+* Updated refreshrate in README.md
+```
+
+
 ## 1.0.2
 ```diff
 - Reverted "Changed bindings to use the Workman Keyboard Layout (https://workmanlayout.org)" from 1.0.1

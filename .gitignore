@@ -66,6 +66,7 @@ server_competitive_rounds_win_conditions.cfg
 server_competitive_stopwatch_win_conditions_high_skill.cfg
 server_competitive_stopwatch_win_conditions.cfg
 server_competitive.cfg
+server_custom.cfg
 server_limited_rounds.cfg
 server_limited_time.cfg
 server_mannup.cfg
@@ -79,3 +80,7 @@ trusted_keys_base.txt
 trusted_keys_example.txt
 undo360controller.cfg
 user.scr
+vscript_convar_allowlist.txt
+server_net_chan_extend.cfg
+# Ignore JS Scripts
+*.js

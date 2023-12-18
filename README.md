@@ -38,7 +38,7 @@ Mine are specifically setup for my PC (**Seriously, if you use exactly you could
 
 Mine:
 ```code
--no_texture_stream -small -threads 16 -forever -enablefakeip -novid -gl_enablesamplerobjects -NoQueuedPacketThread -rpt -tickrate 32 -high -windowed -noborder -refreshrate 144 -maxplayers 255 +exec autoexec.cfg
+-no_texture_stream -small -threads 16 -forever -enablefakeip -novid -gl_enablesamplerobjects -NoQueuedPacketThread -rpt -tickrate 32 -high -windowed -noborder -refreshrate 165 -maxplayers 255 +exec autoexec.cfg
 ```
 Mine without the me-specific options (easy copy-paste):
 ```code
@@ -68,7 +68,7 @@ To change your launch options for steam games, the best and easiest way to chang
 - `-high` Launches the game with [HIGH_PRIORITY_CLASS in Windows](https://docs.microsoft.com/en-us/windows/win32/procthread/scheduling-priorities), effectively hinting that it should make TF2 a priority over other programs.
 - `-windowed` Launches the game in windowed mode.
 - `-noborder` Launches the game in borderless windowed if the game is running in windowed mode, making it look like it's fullscreen but without the game minimizing when you click outside the window, however this will break support for stretched resolutions
-- `-refreshrate 144` Force a specific refresh rate, you set this to your monitors refreshrate. Don't use this as a framerate limiter, instead you should use the fps_max and fps_max_menu console commands instead.
+- `-refreshrate 165` Force a specific refresh rate, you set this to your monitors refreshrate. Don't use this as a framerate limiter, instead you should use the fps_max and fps_max_menu console commands instead.
 - `-maxplayers 255` This is used to "Set the maximum players allowed to join the server", 255 is the absolute maximum set by the Source Engine.
 - `+exec autoexec.cfg` This executes autoexec.cfg, this shouldn't be necessary but unless you've done some really weird and exotic modifications it doesn't hurt anything to have it run twice.
 
