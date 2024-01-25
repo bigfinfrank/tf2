@@ -6,6 +6,11 @@ New updates are added as a h2 header (`##`) above the previous version (meaning 
 We use [Semantic Versioning 2.0.0](https://semver.org/spec/v2.0.0.html) which is the undoubtedly best format for version formatting, please use it for your own projects.
 
 
+## 2.0.0
+```diff
+
+```
+
 ## 1.0.3
 ```diff
 + Added additional viewmodel_fov_demo
